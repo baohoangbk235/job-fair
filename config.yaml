@@ -1,0 +1,17 @@
+train_dir: "/home/baohoang235/WorkSpace/Interview/data/train"
+test_dir: "data/test/"
+model_dir: "trained/"
+label_path: "/home/baohoang235/WorkSpace/Interview/trained/labels.npy"
+trained_model: "/home/baohoang235/WorkSpace/Interview/trained/trained_knn_model.clf"
+current_user_imgs_dir: 'data/train/'
+database: '/home/baohoang235/WorkSpace/face-check-in/database.db'
+retrain_images_dir: '/home/baohoang235/WorkSpace/face-check-in/retrain_images'
+encoding_path: '/home/baohoang235/WorkSpace/Interview/trained/encodings.npy'
+save_dir: 'data/save_dir/'
+font_path: 'font/architep.ttf'
+cpu_count: 4
+thickness: 5
+font_size: 60
+n_neighbors: 20
+face_thresh: 0.4
+down_scale: 0.25

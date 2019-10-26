@@ -1,0 +1,2 @@
+from facerecognitor.knnclassifier import KNNClassifier
+from facerecognitor import utils
